@@ -1,0 +1,278 @@
+body{
+  background-color:white;
+	margin:0 auto;
+	padding: 0;
+	}
+			 /* Style the buttons that are used to open and close the accordion panel */
+
+  h6{color:gray;}
+  .opened{margin-left:25%; }
+ 
+			 /*pour ecran*/
+@media screen and (min-width:1000px){
+			.cv{
+			width:70%;
+			background-color:white;
+			min-height:1000px;
+			margin-left:auto;
+			margin-right:auto;
+			}
+			.adressewrapper{
+			width:250px;
+			float:left;
+			height:60px;
+			}
+			.adresse{
+			width:250px;
+			height:100px;
+			float:left;
+			margin-left:20px;
+			font-family: calibri;
+			}
+			.lnkd{
+			width:50px;	
+			float:left;
+			margin-left:50px;
+			}
+			img{
+			float:right;
+			margin-right:20px;
+			margin-top:20px;
+			width:150px;
+			}
+			h1{
+			clear:both;
+			color:red;
+			font-family:arial;
+			text-transform:uppercase;
+			text-align:center;
+			}
+			.lang{
+			font-family:arial;
+			text-align:center;
+			}
+			.main{font-family:arial;}
+			.main2{font-family:arial;}
+			
+			.foot{
+			font-family:arial;
+			}
+			.footer{
+			font-family:arial;
+			}		
+      p{
+      font-family:arial; 
+      }
+      
+      button.accordion {
+    background-color: skyblue;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left:20%;
+    border-radius:10px;
+    margin-bottom:5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: green;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+      
+      
+}
+			  /*pour tablette*/
+
+@media screen and (max-width:999px) and (min-width:481px){
+			.cv{
+			width:80%;
+			background-color:white;
+			min-height:1000px;
+			margin-left:auto;
+			margin-right:auto;
+			}
+			.adressewrapper{
+			width:250px;
+			float:left;
+			height:50px;
+			}
+			
+			.adresse{
+			width:200px;
+			height:50px;
+			float:left;
+			margin-left:20px;
+			font-family: calibri;
+			}
+			
+			.lnkd{
+			width:50px;
+			float:left;
+			margin-left:50px;			
+			}
+			img{
+			float:right;
+			margin-right:20px;
+			margin-top:20px;
+			width:150px;
+			}
+			h1{
+			clear:both;
+			color:red;
+			font-family:arial;
+			text-transform:uppercase;
+			text-align:center;
+			font-size:26px;
+			}
+			.lang{
+			font-family:arial;
+			text-align:center;
+			}
+			.comps{
+				margin-top:-5px;
+			}
+			.main{
+			
+			font-family:arial;
+			}
+			.main2{
+			
+			font-family:arial;
+			}
+			.foot{
+			font-family:arial;
+			}
+			.footer{
+			font-family:arial;
+			}	
+      p{
+      font-family:arial; 
+      }
+      button.accordion {
+    background-color: skyblue;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    
+    border-radius:10px;
+    margin-bottom:5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #FF8DF2;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+			}
+			 /*pour mobile*/
+
+@media screen and (max-width:480px){
+			.cv{
+			width:100%;
+			background-color:white;
+			min-height:1000px;
+			margin-left:auto;
+			margin-right:auto;
+			}
+			.adressewrapper{
+			width:401px;
+			float:left;
+			height:78px;
+			}
+			.adresse{
+			width:400;
+			height:75px;
+			float:left;
+			margin-left:20px;
+			font-family: calibri;
+			}
+			.lnkd{
+			width:70px;
+			float:left;
+			margin-left:50px;			
+			}
+			img{
+			clear:left;
+			margin-left:150px;
+			width:50%;
+			}
+			h1{
+			clear:both;
+			color:red;
+			font-family:arial;
+			text-transform:uppercase;
+			text-align:center;
+			font-size:22px;
+			}
+			.lang{
+			font-family:arial;
+			text-align:center;
+			}
+			.comps{
+				margin-top:-5px;
+			}
+			.main{
+			font-family:arial;
+			}
+			.main2{
+			font-family:arial;
+			}
+			.foot{
+			font-family:arial;
+			}
+			.footer{
+			font-family:arial;
+			}
+      p{
+      font-family:arial; 
+      }
+          button.accordion {
+    background-color: skyblue;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    
+    border-radius:10px;
+    margin-bottom:5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #FFD694;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+			}
