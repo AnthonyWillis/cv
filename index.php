@@ -40,8 +40,8 @@
 			<li>Conduite d’un projet internet</li>
 			<li>Projets accomplis:
 				<ul>
-					<li><a href="http://www.willisanthony.fr/parimis2">HTML/CSS site vitrine</a></li>
-					<li><a href="http://www.willisanthony.fr/annonceo">PHP site - en travaux. HTML, CSS, PHP, MySQL. </a></li>
+					<li><a href="http://www.willisanthony.fr/parimis2">Site vitrine avec HTML, CSS.</a></li>
+					<li><a href="http://www.willisanthony.fr/annonceo">Site avec HTML, CSS, PHP, MySQL. </a></li>
 				</ul>
 			</li>
 			<li>Conception d’un cahier des charges</li>
