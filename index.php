@@ -6,7 +6,7 @@
 		<meta charset="UTF-8" />
 		<link href="style/cvonline.style.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<script src="https://use.fontawesome.com/06746255c3.js"></script>
 	</head>
 	<body>
 		<div class="cv">
@@ -90,7 +90,15 @@
 
       <button class="accordion"><h2>EXPERIENCES PROFESSIONNELLES :</h2></button>
       <div class="panel">
-
+			<button class="accordion">QualyTrust</button>
+      <div class="panel">
+      <div class="opened">
+      <p>
+          2017/2018 : Stagiaire Développeur Web, QualyTrust Levallois-Perret.<br>
+          Création et integration des centres d'aide pour une plateforme d'assurances en ligne.
+      </p>
+      </div>
+      </div>
 			<button class="accordion">B2S/Nissan</button>
       <div class="panel">
       <div class="opened">
@@ -127,6 +135,7 @@
       <div class="opened">
 	  <p>
 		2017: Développeur Intégrateur Web, PHP Orienté Objet - IFOCOP Paris 11eme.
+		Cette formation comprise d'un stage de 4 mois en entreprise. 
 	  </p>
       <p>
         2017 : Développeur Intégrateur Web – IFOCOP Montigny le Bretonneux.
@@ -138,7 +147,7 @@
       <div class="opened">
       <p>
         2003 : PostGraduate Certificate of Education University of NEWCASTLE <br>
-				Statut d’enseignant débutant qualifié. Expérience de l’enseignement de la biologie, de la Chimie et de la Physique au collège (âges de 11 à 16 ans).
+				Statut d’enseignant débutant qualifié. Expérience de l’enseignement de la biologie, de la Chimie et de<br> la Physique au collège (âges de 11 à 16 ans).
       </p>
       </div>
       </div>
@@ -166,7 +175,7 @@
       </div>
       <hr>
     <footer>
-      <h6 style="text-align: center;">Anthony Willis <?php echo date('Y');?></h6>
+      <h6 style="text-align: center;"><i class="fa fa-copyright" aria-hidden="true"></i> Anthony Willis <?php echo date('Y');?></h6>
 	 <h6 style="text-align: center;">Hébergement : Gandi. https://www.gandi.net/</h6>
     </footer>
 		</div>
